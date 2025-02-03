@@ -99,22 +99,80 @@ h1 {
 }
 .info-box {
     display:flex;
+    flex-flow:column;
     align-items: center;
     justify-content: center;
     background-color: #F9FAF8;
-    height:400px;
+    height:500px;
+    gap:20px;
     /**width:2000px;*/
+}
+.stuff {
+    display:flex;
+    flex-flow:row;
+    gap:20px;
+    
+}
+
+.stuff-box { 
+    display:flex;
+    flex-flow:column;
+    align-items:center;
+    justify-content: center;
+    gap:20px;
+    width:200px;
+    text-align: center;
+}
+
+.stuff-box img {
+    height:200px;
+    width:200px;
+    object-fit: cover;
+    border:none;
+    border-radius:12px;
 }
 
 h2{
+    font-size: 36px;
+    color:#1F2937;
+    font-weight:900;
+}
+
+.quote-box {
+    background-color: #E5E7EB;
+    height:500px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-container{
+    width:1200px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:20px;
+    padding:200px;
+    color:#1F2937;
+
 
 }
 .quote {
+    font-size: 36px;
+    font-weight:300;
+    font-style:italic;
 
-    background-color: #F9FAF8;
-    height:400px;
     /**width:2000px;*/
 }
+
+.quote-name { 
+    align-self:flex-end;
+    font-weight:900;
+    font-size:20px;
+
+}
+
+
 .sign-up {
 
     background-color: #F9FAF8;
@@ -128,4 +186,5 @@ h2{
     justify-content: center;
     align-items:center;
     color:#F9FAF8;
+
 }
