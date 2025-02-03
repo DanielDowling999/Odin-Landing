@@ -1,10 +1,11 @@
-body {
+* {
     box-sizing: border-box;
+}
+body {
     display:flex;
     flex-direction:column;
     font-family:'Roboto', serif;
     background-color: #1F2937;
-    align-items: center;
 }
 
 .header {
@@ -49,6 +50,76 @@ a {
     text-decoration: none;
     color: inherit;
 
+}
+
+.section-color{
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.section-box{
+    display:flex;
+    width:1200px;
+
+}
+
+.section {
+    /*background-color: #F9FAF8;*/
+    height:400px;
+    display:flex;
+    flex-direction:column;
+    color:#E5E7EB;
+    gap:10px;
+    padding-right:10px;
+    font-size: 18px;
+    justify-content: center;
+}
+
+button{
+    border-radius:12px;
+    padding: 10px 40px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    border:none;
+    font-size: 18px;
+    font-weight:200;
+}
+.section button{
+    align-self:flex-start;
+}
+img{
+    height:400px
+}
+h1 {
+   font-size: 48px;
+   font-weight:900; 
+}
+.info-box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9FAF8;
+    height:400px;
+    /**width:2000px;*/
+}
+
+h2{
+
+}
+.quote {
+
+    background-color: #F9FAF8;
+    height:400px;
+    /**width:2000px;*/
+}
+.sign-up {
+
+    background-color: #F9FAF8;
+    height:400px;
+    /**width:2000px;*/
 }
 
 .footer {
